@@ -37,8 +37,9 @@
 //--Includes
 #include "app.h"
 
+uint16_t led_delay=200;
 
 //--Functions
 void App_loop(void){
-    blink_led(100,ONBOARD_LED_PIN);
+    blink_led(led_delay,LED_PIN);
 }

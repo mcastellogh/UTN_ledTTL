@@ -5,7 +5,8 @@
 #include <Arduino.h>
 
 //--Hardware PINS definitions
-#define ONBOARD_LED_PIN             23
+#define ONBOARD_LED_PIN             2
+#define LED_PIN                     23
 
 
 //--Software constants

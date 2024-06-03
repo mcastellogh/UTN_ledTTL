@@ -22,6 +22,7 @@ void welcome(void){
       digitalWrite(ONBOARD_LED_PIN,LOW);
       delay(80);
   }
+  delay(500);
 }
 
 //--Blink led by delay

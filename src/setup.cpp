@@ -19,6 +19,7 @@ void App_setup(void){
 
     //--PINS
     pinMode(ONBOARD_LED_PIN,OUTPUT);
+    pinMode(LED_PIN,OUTPUT);
 
     welcome();
 
